@@ -237,9 +237,6 @@ iFrame{
     font-family: 'IBM Plex Sans';
     font-weight: bold;
 }
-
-
-
 .novedades{
     position: relative;
     display: flex;
@@ -250,7 +247,7 @@ iFrame{
    
 }
 .novedadBg{
-    height: 578px;
+    height: 522px;
     background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
     position: absolute;
     width: 100%;
@@ -258,10 +255,11 @@ iFrame{
     transform-origin: right;
 }
 .pregunta h2{
-    margin-top: 250px;
+    margin-top: 200px;
     margin-bottom: 36px ;
     font-family: 'IBM Plex Sans', sans-serif;
     color: #FFFFFF;
+    text-align: center;
     font-size: 48px;
     font-weight: normal;
 
@@ -280,7 +278,7 @@ footer{
     margin-top: 136px ;
     justify-content: space-between;
     background-color: #FFFFFF;
-    padding: 56px 100px 56px 100px;
+    padding: 75px 100px 75px 100px;
 }
 .contenedorRedes ul{
     list-style: none;
