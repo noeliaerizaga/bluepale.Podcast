@@ -647,6 +647,9 @@ footer{
     color: #060A24;
     font-size: 0.75em;
 }
+.contenedorRedes a{
+    color: #060A24;
+}
 .contenedorRedes a:visited{
     text-decoration: none;
     color: #060A24;
