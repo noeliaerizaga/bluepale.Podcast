@@ -31,8 +31,8 @@
     display: none;
 }
 .header li a{
-    text-decoration: none;
     color: #060a24;
+    text-decoration: none;
 }
 .header a:visited{
     text-decoration: none;
@@ -107,7 +107,7 @@
     position: absolute;
     width: 100%;
     height:1042.6px;
-    transform: skewY(-7deg);
+    transform: skewY(-5deg);
     transform-origin: right;
     
 }
@@ -187,7 +187,8 @@ iFrame{
     font-weight: normal;
 }
 .galeria{
-    width: 33.19%;
+    width: 33.33%;
+    height: 100%;
     padding: 0px;
     margin: 0px;
 }
@@ -200,9 +201,9 @@ iFrame{
     padding: 0px;
     
 }
-
 .galeriaSuperior{
     display: inline-flex;
+    width: 100%;
 }
 .galeriaInferior{
     display: inline-flex;
@@ -236,7 +237,6 @@ iFrame{
     font-family: 'IBM Plex Sans';
     font-weight: bold;
 }
-
 .novedades{
     position: relative;
     display: flex;
@@ -296,7 +296,7 @@ footer{
 
 /*Media Querys desde widht 320px hasta 1200px*/
     @media screen and (max-width: 1200px) and (min-width:320px) {
-        /* barra de navegacion */
+            /* barra de navegacion */
         .header {
             background-color: #ffffff;
             box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
@@ -304,16 +304,13 @@ footer{
             z-index: 9999;
             margin: 0px;
         }
-        
         .header ul {
             overflow: hidden;
         }
-        
         .header .menu li{
             width: 100%;
             margin: 12px;
         }
-        
         .header .logo {
             float: left;
             font-size: 2em;
@@ -329,16 +326,14 @@ footer{
             color: #ffffff;
         }
         .header a:hover{
-                color: #00F3BB;
-                text-decoration: line-through;
+            color: #00F3BB;
+            text-decoration: line-through;
         }
-            
         .header a:active{
-                color:#060a24;
-                text-decoration: line-through;
+             color:#060a24;
+            text-decoration: line-through;
         }
-
-        /* menu desplegable con animacion */
+            /* menu desplegable con animacion */
         
         .header .menu {
             background: #0000ce;
@@ -347,8 +342,6 @@ footer{
             max-height: 0;
             transition: max-height .2s ease-out;
         }
-    
-        
             /* dibujo e interaccion del icono de menu */
 
         .header .menu-icon {
@@ -358,7 +351,6 @@ footer{
             position: relative;
             margin: 12px;
         }
-        
         .header .menu-icon .nav-icon {
             background: #333;
             display: block;
@@ -367,7 +359,6 @@ footer{
             transition: background .2s ease-out;
             width: 18px;
         }
-        
         .header .menu-icon .nav-icon:before,
         .header .menu-icon .nav-icon:after {
             background: #333;
@@ -378,15 +369,12 @@ footer{
             transition: all .2s ease-out;
             width: 100%;
         }
-        
         .header .menu-icon .nav-icon:before {
             top: 5px;
         }
-        
         .header .menu-icon .nav-icon:after {
             top: -5px;
         }
-        
             /* menu btn */
         
         .header .menu-btn:checked ~ .menu {
@@ -396,12 +384,10 @@ footer{
         .header .menu-btn:checked ~ .menu-icon .nav-icon {
             background: transparent;
         }
-        
         .header .menu-btn:checked ~ .menu-icon .nav-icon:before {
             transform: rotate(-45deg);
             top:0;
         }
-        
         .header .menu-btn.menu-btn:checked ~ .menu-icon .nav-icon:after {
             transform: rotate(45deg);
             top:0;
@@ -416,14 +402,12 @@ footer{
             flex-direction: column;
             align-content: center;
         }
-
         .presentacion h1{
             display: block;
             font-size: 3em;
             width: 90%;
             margin: 12px; 
         }  
-    
         .presentacion p{
             font-size: 1em;
             display: block;
@@ -436,7 +420,6 @@ footer{
             margin: 0px;
             padding: 18px 45px;
         }  
-
         .boton{
             font-family:'IBM Plex Mono';
             font-size: 1em;
@@ -445,8 +428,6 @@ footer{
             color: #060A24;
             font-weight: bold;
         }
-        
-
             /* seccion episodios */
 
         .episodios{
@@ -457,7 +438,6 @@ footer{
             flex-direction: column;
             align-content: center;
         }
-        
         .epiBg{
             background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
             position: absolute;
@@ -477,13 +457,11 @@ footer{
             color: #FFFFFF;
             position: relative;
         }
-
         .contenedorIframes{
             position: relative;
             display: flex;
             flex-direction: column;
         }
-        
         .arriba{
             display: flex;
             flex-direction: column;
@@ -496,11 +474,9 @@ footer{
             align-items: center; 
             width: 100%; 
         }
-        
         iFrame{
             width: 95%;
             margin: 2px;
-        
         }
             /*Seccion De Donde Venimos*/
 
@@ -528,26 +504,30 @@ footer{
         .DDVtexto h2{
             font-size: 2em;
             font-weight: lighter;
-            margin: 10px;
-            width: 100%;
+          
+            text-align: center;
         }
         .DDVtexto p {
             font-family: 'IBM Plex Mono';
             font-size: 1em;
             color: #060A24;
-            margin: 5px;
-            padding: 0px;
+            text-align: center;
             width: 100%;
         }
             /*Seccion Invitadas*/
-
+        .invitadas{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
         .invitadas h2{
             font-family: 'IBM Plex Sans', sans-serif;
             margin: 0px;
             font-size: 2em;
             font-weight: normal;
             padding: 10px 25px;
-            width: 80%;
+            width: 100%;
+            text-align: justify;
         }
         .galeria{
             width: 100%;
@@ -568,22 +548,29 @@ footer{
             width: 100%;
         }
             /*Seccion Temas*/
-
+        .nuestrosTemas{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
         .nuestrosTemas h2{
             font-family: 'IBM Plex Sans', sans-serif;
             font-size: 2em;
-            margin: 0px;
-            padding: 10px 25px;
             font-weight: normal;
-            width: 80%;
+            width: 100%;
+            margin: 16px;
+            text-align: center;
     
         }
         .contenedorTemas{
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin: 0px;
+            margin: 24px;
             padding: 0px;
+        }
+        .temas{
+            margin: 10px;
         }
         
             /*Seccion novedades*/
@@ -651,3 +638,10 @@ footer{
             color: #060A24;
         }
     }
+    /*Configuracion de pariencia de "button" en dispositivos*/
+    @supports (-webkit-touch-callout: none) {
+        button {
+          border-radius: 0;
+          -webkit-appearance: none;
+        }
+      }
