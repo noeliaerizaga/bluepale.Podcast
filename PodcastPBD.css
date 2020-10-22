@@ -81,6 +81,7 @@
 .conoceMas{
     margin: 0px 0px 0px 100px;
     width: 30%;
+    text-decoration: none;
     
 }
 .boton{
@@ -92,7 +93,8 @@
 	background-color:#00F3BB;
 	cursor: pointer;
 	color: #060A24;
-    padding: 2.5% 2%;
+    padding: 2.5% 2.5%;
+    margin: 2px;
     
 }
 
@@ -267,10 +269,9 @@ iFrame{
     text-align: center;
     font-size: 48px;
     font-weight: normal;
-
 }
 .botonEscucha{
-    width: 40%;
+    text-decoration: none;
 }
 
 
@@ -425,7 +426,7 @@ footer{
             margin: 12px;
         }
         .conoceMas  {
-            width: 65%;
+            width: 5%;
             margin: 0px;
             padding: 5%;
         }  
