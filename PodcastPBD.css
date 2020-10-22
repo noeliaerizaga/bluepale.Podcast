@@ -79,7 +79,8 @@ color: #060A24;
 margin: 9px 50px 50px 100px;
 }
 .conoceMas {
-text-decoration: none;  
+text-decoration: none; 
+color: #060A24;
 }
 
 .boton{
@@ -272,6 +273,7 @@ margin-left: 100px;
 }
 .botonEscucha{
 text-decoration: none;
+color: #060A24;
 }
 
 
