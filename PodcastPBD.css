@@ -424,13 +424,14 @@ footer{
             padding: 0px;
             margin: 12px;
         }
-        .conoceMas{
-            width: 95%;
+        .conoceMas  {
+            width: 65%;
             margin: 0px;
-            padding: 18px 45px;
+            padding: 5%;
         }  
-        .boton{
-            width: 45%;
+
+        .boton {
+            
             font-family:'IBM Plex Mono';
             font-size: 1em;
             background-color:#00F3BB;
@@ -611,10 +612,10 @@ footer{
         
         }
 
-        .botonEscucha{
+        .botonEscucha a{
             margin: 0px;
-            width: 40%;
-            padding: 18px 45px;
+            width: 65%;
+            padding:5%;
         }
             /*Seccion Footer*/
         footer h4{
@@ -648,3 +649,4 @@ footer{
             color: #060A24;
         }
     }
+    
