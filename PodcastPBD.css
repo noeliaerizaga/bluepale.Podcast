@@ -79,23 +79,31 @@
     margin: 9px 50px 50px 100px;
 }
 .conoceMas{
-    width: 25%;
-    margin: 50px 100px;  
+    margin: 0px 0px 0px 100px;
+    width: 30%;
+    
 }
 .boton{
     font-family:'IBM Plex Mono';
     font-size: 1.125em;
-	background-color:#00F3BB;
-	cursor:pointer;
-	color: #060A24;
-    padding:28px 113px;
+    text-align: center;
     font-weight: bold;
+    text-decoration: none;
+	background-color:#00F3BB;
+	cursor: pointer;
+	color: #060A24;
+    padding: 2.5% 2%;
+    
 }
 
 .boton:hover {
     background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
     color:#FFFFFF;
     font-weight: lighter;
+}
+.boton a:visited{
+    text-decoration: none;
+    color: initial ;
 }
 .episodios{
     position: relative;
@@ -242,9 +250,6 @@ iFrame{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 374px;
-    margin-left: 374px;
-   
 }
 .novedadBg{
     height: 522px;
@@ -264,6 +269,10 @@ iFrame{
     font-weight: normal;
 
 }
+.botonEscucha{
+    width: 40%;
+}
+
 
 footer h4{
     color: #060A24;
@@ -421,10 +430,10 @@ footer{
             padding: 18px 45px;
         }  
         .boton{
+            width: 45%;
             font-family:'IBM Plex Mono';
             font-size: 1em;
             background-color:#00F3BB;
-            cursor:pointer;
             color: #060A24;
             font-weight: bold;
         }
@@ -484,7 +493,7 @@ footer{
             display: flex;
             flex-direction: column;
             align-content: center;
-            margin-top: 32px 0px;
+            margin-top: 32px;
         
         
         }
@@ -522,12 +531,11 @@ footer{
         }
         .invitadas h2{
             font-family: 'IBM Plex Sans', sans-serif;
-            margin: 0px;
+            margin: 3% 1%;
             font-size: 2em;
             font-weight: normal;
-            padding: 10px 25px;
-            width: 100%;
-            text-align: justify;
+            width: 95%;
+            text-align: center;
         }
         .galeria{
             width: 100%;
@@ -557,8 +565,8 @@ footer{
             font-family: 'IBM Plex Sans', sans-serif;
             font-size: 2em;
             font-weight: normal;
-            width: 100%;
-            margin: 16px;
+            width: 95%;
+            margin:3% 1%;
             text-align: center;
     
         }
@@ -604,7 +612,7 @@ footer{
 
         .botonEscucha{
             margin: 0px;
-            width: 95%;
+            width: 40%;
             padding: 18px 45px;
         }
             /*Seccion Footer*/
@@ -625,7 +633,8 @@ footer{
             flex-direction: column;
             align-content: center;
             align-items: center;
-            background-color: #FFFFFF; 
+            background-color: #FFFFFF;
+            color: #060A24; 
             margin: 40px 0px; 
             padding: 80px 10px;
         }
@@ -638,10 +647,3 @@ footer{
             color: #060A24;
         }
     }
-    /*Configuracion de pariencia de "button" en dispositivos*/
-    @supports (-webkit-touch-callout: none) {
-        button {
-          border-radius: 0;
-          -webkit-appearance: none;
-        }
-      }
